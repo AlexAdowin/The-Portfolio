@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bases de la Sécurité Informatique</title>
+
+    
+</head>
+<body >
+
+        <div class="menu">
+            <div class="lien-menu">
+                <div class="lien1">
+                    <a href="index.html">Accueil</a>
+                </div>
+                <div class="lien2">
+                    <a href="competence.html">Compétences</a>
+                </div>
+                <div class="lien3">
+                    <a href="projet.html">Projets</a>
+                </div>
+                <div class="lien4">
+                    <a href="galerie.html">Galerie</a>
+                </div>
+                <div class="lien5">
+                    <a href="contact.html">Contact</a>
+                </div>
+              
+            </div>
+          </div>  
+           
+        
+           <style>
+           
+ body{           
+font-family: Arial, sans-serif;
+ margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 3cm;
+             
+   }
+
+         .competence4 h2{
+             color: wheat;
+         }
+         header {
+             
+             color: white;
+             padding: 20px 0;
+             text-align: center;
+         }
+         header h2 {
+             margin-top: 20px;
+             margin: 0;
+             font-size: 2.5rem;
+             text-align: center;
+             
+         }
+         section {
+             padding: 40px 20px;
+         }
+         .container4 {
+             width: 100%;
+             
+         }
+         .competences4 {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 20px;
+             margin-top: 20px;
+             justify-content: space-between;
+         }
+         .competence4 {
+             
+             padding: 30px;
+             border-radius: 8px;
+             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+             width: 48%;
+             margin-bottom: 40px;
+             transition: transform 0.3s;
+             background: rgba(2,2,2,0.2);
+
+
+         }
+         .competence4:hover {
+             transform: translateY(-5px);
+         }
+         .competence4 h3 {
+             margin-top: 0;
+             color: white;
+             font-size: 1.5rem;
+         }
+         .competence4 p {
+             font-size: 1rem;
+             line-height: 1.6;
+             color: grey;
+         }
+         .competence4 ul {
+             margin-top: 10px;
+         }
+         .competence4 ul li {
+             list-style-type: square;
+             margin-left: 20px;
+             color: white;
+         }
+
+         h2{
+             color: white;
+
+         }
+         
+
+      </style>
+
+    <header>
+        <h1>Bases de la Sécurité Informatique</h1>
+    </header>
+
+    <section>
+        <div class="container4">
+            <h2>Concepts Fondamentaux</h2>
+            <div class="competences4">
+                <div class="competence4">
+                    <h3>Confidentialité</h3>
+                    <p>La confidentialité assure que seules les personnes autorisées peuvent accéder aux informations sensibles.</p>
+                    <ul>
+                        <li>Utilisation du chiffrement (AES, RSA)</li>
+                        <li>Mots de passe forts et uniques</li>
+                        <li>Gestion des accès et permissions</li>
+                    </ul>
+                </div>
+                <div class="competence4">
+                    <h3>Intégrité</h3>
+                    <p>L'intégrité garantit que les données ne sont pas altérées sans autorisation.</p>
+                    <ul>
+                        <li>Contrôle d'intégrité (hash SHA-256)</li>
+                        <li>Surveillance des modifications</li>
+                        <li>Sauvegardes régulières</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Protection des Réseaux</h2>
+            <div class="competences4">
+                <div class="competence4">
+                    <h3>Pare-feu</h3>
+                    <p>Le pare-feu filtre le trafic réseau entrant et sortant afin de bloquer les accès non autorisés.</p>
+                    <ul>
+                        <li>Configuration des règles de filtrage</li>
+                        <li>Pare-feu matériels et logiciels</li>
+                        <li>Surveillance du trafic en temps réel</li>
+                    </ul>
+                </div>
+                <div class="competence4">
+                    <h3>VPN (Réseau Privé Virtuel)</h3>
+                    <p>Un VPN protège la connexion internet en chiffrant les données et en masquant l'adresse IP.</p>
+                    <ul>
+                        <li>Sécurisation des connexions distantes</li>
+                        <li>Chiffrement de bout en bout</li>
+                        <li>Prévention des interceptions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Sécurité des Applications</h2>
+            <div class="competences4">
+                <div class="competence4">
+                    <h3>Protection contre les failles</h3>
+                    <p>Il est essentiel de protéger les applications contre les failles de sécurité courantes.</p>
+                    <ul>
+                        <li>Prévention des injections SQL</li>
+                        <li>Validation des entrées utilisateur</li>
+                        <li>Utilisation de frameworks sécurisés</li>
+                    </ul>
+                </div>
+                <div class="competence4">
+                    <h3>Authentification et Autorisation</h3>
+                    <p>Contrôle d'accès aux ressources via des mécanismes fiables d'authentification et d'autorisation.</p>
+                    <ul>
+                        <li>Authentification à deux facteurs (2FA)</li>
+                        <li>Gestion sécurisée des sessions</li>
+                        <li>Protocoles OAuth et OpenID Connect</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Bonnes Pratiques Utilisateur</h2>
+            <div class="competences4">
+                <div class="competence4">
+                    <h3>Mises à Jour Régulières</h3>
+                    <p>Maintenir à jour les systèmes et applications pour corriger les vulnérabilités connues.</p>
+                    <ul>
+                        <li>Automatisation des mises à jour</li>
+                        <li>Surveillance des correctifs de sécurité</li>
+                        <li>Évaluation des risques avant déploiement</li>
+                    </ul>
+                </div>
+                <div class="competence4">
+                    <h3>Sensibilisation à la Sécurité</h3>
+                    <p>Former les utilisateurs pour reconnaître et éviter les menaces potentielles.</p>
+                    <ul>
+                        <li>Reconnaissance des tentatives de phishing</li>
+                        <li>Utilisation de gestionnaires de mots de passe</li>
+                        <li>Politiques de sécurité adaptées</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+            <script src="script.js"></script>
+
+        </body>
+    </html>

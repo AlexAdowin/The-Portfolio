@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>My Page</title>
+</head>
+<body >
+
+        <div class="menu">
+            <div class="lien-menu">
+                <div class="lien1">
+                    <a href="index.html">Accueil</a>
+                </div>
+                <div class="lien2">
+                    <a href="competence.html">Compétences</a>
+                </div>
+                <div class="lien3">
+                    <a href="projet.html">Projets</a>
+                </div>
+                <div class="lien4">
+                    <a href="galerie.html">Galerie</a>
+                </div>
+                <div class="lien5">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+           </div> 
+        
+            <script src="script.js"></script>
+            <style>
+               body{  
+
+font-family: Arial, sans-serif;
+ margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 3cm;
+             
+   }
+
+         .competence3 h2{
+             color: wheat;
+         }
+         header {
+             
+             color: white;
+             padding: 20px 0;
+             text-align: center;
+         }
+         header h2 {
+             margin-top: 20px;
+             margin: 0;
+             font-size: 2.5rem;
+             text-align: center;
+             
+         }
+         section {
+             padding: 40px 20px;
+         }
+         .container3 {
+             width: 100%;
+             
+         }
+         .competences3 {
+             display: flex;
+             flex-wrap: wrap;
+             gap: 20px;
+             margin-top: 20px;
+             justify-content: space-between;
+         }
+         .competence3 {
+             
+             padding: 30px;
+             border-radius: 8px;
+             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+             width: 48%;
+             margin-bottom: 40px;
+             transition: transform 0.3s;
+             background: rgba(2,2,2,0.2);
+
+
+         }
+         .competence3:hover {
+             transform: translateY(-5px);
+         }
+         .competence3 h3 {
+             margin-top: 0;
+             color: white;
+             font-size: 1.5rem;
+         }
+         .competence3 p {
+             font-size: 1rem;
+             line-height: 1.6;
+             color: grey;
+         }
+         .competence3 ul {
+             margin-top: 10px;
+         }
+         .competence3 ul li {
+             list-style-type: square;
+             margin-left: 20px;
+             color: white;
+         }
+
+         h2{
+             color: white;
+
+         }
+         
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>Développement de Jeux Vidéo pour Débutants</h1>
+            </header>
+        
+            <section>
+                <div class="container3">
+                    <h2>Langages de Programmation</h2>
+                    <div class="competences3">
+                        <div class="competence3">
+                            <h3>Python</h3>
+                            <p>Python est idéal pour débuter grâce à sa syntaxe simple. Il est compatible avec des bibliothèques comme Pygame pour développer des jeux 2D.</p>
+                            <ul>
+                                <li>Développement de jeux 2D avec Pygame</li>
+                                <li>Gestion des événements clavier et souris</li>
+                                <li>Création de boucles de jeu efficaces</li>
+                            </ul>
+                        </div>
+                        <div class="competence3">
+                            <h3>C# avec Unity</h3>
+                            <p>C# est le langage principal utilisé avec Unity, un moteur de jeu très populaire pour les débutants et professionnels.</p>
+                            <ul>
+                                <li>Création de scripts pour gérer la logique du jeu</li>
+                                <li>Contrôle des animations et du gameplay</li>
+                                <li>Gestion des collisions et physiques</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <h2>Moteurs de Jeu</h2>
+                    <div class="competences3">
+                        <div class="competence3">
+                            <h3>Unity</h3>
+                            <p>Unity permet de créer des jeux 2D et 3D multiplateformes avec une interface intuitive et des outils puissants.</p>
+                            <ul>
+                                <li>Développement de jeux 2D/3D</li>
+                                <li>Utilisation de l'éditeur pour la conception de scènes</li>
+                                <li>Exportation vers plusieurs plateformes (PC, mobile, web)</li>
+                            </ul>
+                        </div>
+                        <div class="competence3">
+                            <h3>Godot</h3>
+                            <p>Godot est un moteur open-source léger et facile à prendre en main, parfait pour les débutants.</p>
+                            <ul>
+                                <li>Création de jeux avec GDScript</li>
+                                <li>Interface intuitive et gestion des scènes</li>
+                                <li>Animations et scripts intégrés</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <h2>Graphismes et Animation</h2>
+                    <div class="competences3">
+                        <div class="competence3">
+                            <h3>Sprites et Textures</h3>
+                            <p>Les sprites et textures sont essentiels pour les jeux 2D. Ils définissent l'apparence des personnages et des objets.</p>
+                            <ul>
+                                <li>Création de sprites avec des outils comme Aseprite</li>
+                                <li>Gestion des feuilles de sprites</li>
+                                <li>Optimisation des performances graphiques</li>
+                            </ul>
+                        </div>
+                        <div class="competence3">
+                            <h3>Animation 2D</h3>
+                            <p>L'animation rend le jeu vivant en donnant du mouvement aux personnages et aux éléments.</p>
+                            <ul>
+                                <li>Animations image par image</li>
+                                <li>Gestion des transitions d'animations</li>
+                                <li>Utilisation des outils d'animation dans Unity et Godot</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <h2>Gestion des Sons et Musiques</h2>
+                    <div class="competences3">
+                        <div class="competence3">
+                            <h3>Effets Sonores</h3>
+                            <p>Les effets sonores améliorent l'expérience de jeu en ajoutant des éléments audio aux actions du joueur.</p>
+                            <ul>
+                                <li>Intégration d'effets sonores dans les moteurs de jeu</li>
+                                <li>Utilisation de bibliothèques sonores libres de droits</li>
+                                <li>Gestion du volume et des boucles sonores</li>
+                            </ul>
+                        </div>
+                        <div class="competence3">
+                            <h3>Musiques de Fond</h3>
+                            <p>La musique de fond donne de l'ambiance et du rythme au jeu.</p>
+                            <ul>
+                                <li>Création de boucles musicales</li>
+                                <li>Gestion du déclenchement de la musique selon le gameplay</li>
+                                <li>Outils gratuits pour la création de musiques (LMMS, Bosca Ceoil)</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <h2>Outils et Débogage</h2>
+                    <div class="competences3">
+                        <div class="competence3">
+                            <h3>Visual Studio Code</h3>
+                            <p>VSCode est un éditeur de code puissant avec de nombreuses extensions pour le développement de jeux.</p>
+                            <ul>
+                                <li>Extensions pour Unity et Python</li>
+                                <li>Débogage intégré et gestion du code source</li>
+                                <li>Contrôle de version avec Git</li>
+                            </ul>
+                        </div>
+                        <div class="competence3">
+                            <h3>Débogage et Tests</h3>
+                            <p>Les tests sont essentiels pour assurer un jeu stable et fonctionnel.</p>
+                            <ul>
+                                <li>Utilisation des outils de débogage intégrés aux moteurs</li>
+                                <li>Tests unitaires et fonctionnels pour le gameplay</li>
+                                <li>Optimisation des performances pour une expérience fluide</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </body>
+    </html>
